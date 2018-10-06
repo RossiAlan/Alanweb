@@ -1,0 +1,313 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.body {
+  margin: 0;
+  padding: 0;
+}
+.header ol {
+  margin: 0;
+}
+
+.img-header {
+  padding: 0;
+  margin: 0;
+}
+
+.anclas {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  height: 100px;
+  font-weight: 600;
+  font-size: 24px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.anclas-header {
+  padding: 0 20px;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  list-style: none;
+  height: inherit;
+  align-items: center;
+}
+
+.hero  {
+  background-image: url("images/hero2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1500px;
+  color: white;
+  font-size: 40px;
+  height: 500px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: right;
+}
+
+
+.hero h1 {
+  padding: 0 40px;
+}
+
+.capa {
+  /*contenedor capacitacion*/
+  padding: 0;
+  justify-content: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.text-capa {
+  margin: 0 30px;
+  text-align: center;
+}
+
+.text-capa h2 {
+  padding: 0;
+  margin: 30px 580px 0 580px;
+  font-size: 35px;
+  font-family: 'Cormorant Garamond', serif;
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.text-capa p {
+  font-size: 24px;
+  font-family: 'Catamaran', sans-serif;
+}
+.text-capa h3 {
+  font-size: 30px;
+  font-family: 'Cormorant Garamond', serif;
+  margin: 30px 0 0 0;
+}
+.capa p a {
+  /*vinculo a platzi.com*/
+  text-decoration: none;
+}
+
+.diplo-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.diplo-container content h3 {
+  display: flex;
+  margin: 10px;
+  padding: 0;
+  justify-content: center;
+  font-size: 25px;
+  font-family: 'Cormorant Garamond', serif;
+}
+.diplo-container content {
+  margin: 15px;
+  text-align: center;
+}
+.diplomas {
+  /* contenedores para cada diploma*/
+  margin: 10px;
+  margin-top: 20px;
+  height: 300px;
+  width: 400px;
+  display: flex;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+}
+.projects {
+  height: 500px;
+  background-image: url(images/project.jpg);
+  background-repeat: no-repeat;
+  background-size: 800px;
+  background-position: right;
+  width: 1500px;
+  margin: 10px auto;
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+}
+.projects h1 {
+  font-size: 40px;
+  margin: 10px 10px;
+  display: inherit;
+}
+.text-pro {
+  height: 500px;
+  width: 700px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.projects p {
+  font-size: 25px;
+  padding: 10px;
+  text-decoration: none;
+  align-items: center;
+}
+
+.projects a {
+  text-decoration: none;
+}
+
+.projects2 {
+  height: 500px;
+  background-image: url(images/project2.jpg);
+  background-repeat: no-repeat;
+  background-size: 800px 500px;
+  display: flex;
+  justify-content: left;
+  background-position: left;
+  width: 1500px;
+  margin: 10px auto;
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+}
+
+.projects2 h1 {
+  font-size: 40px;
+  margin: 10px 10px;
+  display: inherit;
+}
+
+.text-pro2 {
+  height: 500px;
+  width: 700px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 800px;
+}
+
+.projects2 p {
+  font-size: 25px;
+  padding: 10px;
+  text-decoration: none;
+  align-items: center;
+}
+
+.projects2 a {
+  text-decoration: none;
+}
+
+.contact {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.contact h2 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.social-link {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  background-size: 100px 100px;
+  margin: 10px;
+}
+.social-link.facebook {
+  background-image: url("images/iconos/facebook.png");
+}
+.social-link.instagram {
+  background-image: url("images/iconos/instagram.png");
+}
+.social-link.twitter {
+  background-image: url("images/iconos/twitter.png");
+}
+.social-link.linkedin {
+  background-image: url("images/iconos/linkedin.png");
+}
+.social-link.github {
+  background-image: url("images/iconos/github.png");
+}
+.social-link.platzi {
+  background-image: url("images/iconos/platzi.png");
+}
+
+.footer {
+  height: 100px;
+  background-color: #4c4c4f;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+}
+
+.footer p {
+  display: inherit;
+  align-items: flex-end;
+  font-size: 18px;
+  color: white;
+  font-family: 'Catamaran', sans-serif;
+}
+
+.wrapper {
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+  width: 1500px;
+  height: inherit;
+  margin: 0 auto;
+  background-color: inherit;
+  background-repeat: inherit;
+  background-position: inherit;
+  background-size: inherit;
+}
+
+.body h1 {
+  font-family: 'Cormorant Garamond', serif;
+  text-shadow: 5px 5px 5px black;
+}
+
+.body h3 {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.projects h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 40px;
+}
+
+.projects p {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 24px;
+}
+
+.projects2 h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 40px;
+}
+
+.projects2 p {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 24px;
+}
+
+
+/* FUENTES
+    font-family: 'Fjalla One', sans-serif;
+
+    font-family: 'Source Serif Pro', serif;
+
+    font-family: 'Catamaran', sans-serif; ---> TEXTOS
+
+    font-family: 'Cormorant Garamond', serif; ----> TITULOS
+
+*/
+
+
+/*by AR*/
