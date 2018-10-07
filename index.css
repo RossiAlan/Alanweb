@@ -15,15 +15,17 @@
 .img-header {
   padding: 0;
   margin: 0;
+  height: 80px;
+  width: 260px;
 }
 
 .anclas {
   padding: 0;
   margin: 0;
   display: flex;
-  height: 100px;
+  height: 80px;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 20px;
   font-family: 'Cormorant Garamond', serif;
 }
 
@@ -41,10 +43,10 @@
   background-image: url("images/hero2.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1500px;
+  background-size: 1200px;
   color: white;
-  font-size: 40px;
-  height: 500px;
+  font-size: 32px;
+  height: 400px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -71,20 +73,20 @@
 
 .text-capa h2 {
   padding: 0;
-  margin: 30px 580px 0 580px;
-  font-size: 35px;
+  margin: 30px 450px 0 450px;
+  font-size: 28px;
   font-family: 'Cormorant Garamond', serif;
-  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
-  border-radius: 5px;
+  /*box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);*/
+  /*border-radius: 5px;*/
   text-transform: uppercase;
 }
 
 .text-capa p {
-  font-size: 24px;
+  font-size: 18px;
   font-family: 'Catamaran', sans-serif;
 }
 .text-capa h3 {
-  font-size: 30px;
+  font-size: 23px;
   font-family: 'Cormorant Garamond', serif;
   margin: 30px 0 0 0;
 }
@@ -103,7 +105,7 @@
   margin: 10px;
   padding: 0;
   justify-content: center;
-  font-size: 25px;
+  font-size: 18px;
   font-family: 'Cormorant Garamond', serif;
 }
 .diplo-container content {
@@ -121,76 +123,52 @@
   box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
 }
 .projects {
-  height: 500px;
+  height: 400px;
   background-image: url(images/project.jpg);
   background-repeat: no-repeat;
-  background-size: 800px;
+  background-size: 680px 400px;
   background-position: right;
-  width: 1500px;
+  object-fit: contain;
+  width: 1200px;
   margin: 10px auto;
   box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
 }
-.projects h1 {
-  font-size: 40px;
-  margin: 10px 10px;
-  display: inherit;
+
+.projects2 {
+  height: 400px;
+  background-image: url(images/project2.jpg);
+  background-repeat: no-repeat;
+  background-size: 680px 400px;
+  object-fit: contain;
+  display: flex;
+  justify-content: left;
+  background-position: left;
+  width: 1200px;
+  margin: 10px auto;
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
 }
+
 .text-pro {
-  height: 500px;
-  width: 700px;
+  height: 400px;
+  width: 500px;
   justify-content: center;
   align-items: center;
   text-align: center;
   display: inline-block;
-  margin-top: 40px;
-}
-
-.projects p {
-  font-size: 25px;
-  padding: 10px;
-  text-decoration: none;
-  align-items: center;
 }
 
 .projects a {
   text-decoration: none;
 }
 
-.projects2 {
-  height: 500px;
-  background-image: url(images/project2.jpg);
-  background-repeat: no-repeat;
-  background-size: 800px 500px;
-  display: flex;
-  justify-content: left;
-  background-position: left;
-  width: 1500px;
-  margin: 10px auto;
-  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
-}
-
-.projects2 h1 {
-  font-size: 40px;
-  margin: 10px 10px;
-  display: inherit;
-}
-
 .text-pro2 {
-  height: 500px;
-  width: 700px;
+  height: 400px;
+  width: 500px;
   justify-content: center;
   align-items: center;
   text-align: center;
   display: inline-block;
-  margin-top: 40px;
-  margin-left: 800px;
-}
-
-.projects2 p {
-  font-size: 25px;
-  padding: 10px;
-  text-decoration: none;
-  align-items: center;
+  margin-left: 690px;
 }
 
 .projects2 a {
@@ -198,7 +176,7 @@
 }
 
 .contact {
-  height: 300px;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -208,14 +186,15 @@
   text-align: center;
   margin: 0;
   padding: 0;
+  font-size: 20px;
   font-family: 'Cormorant Garamond', serif;
 }
 
 .social-link {
-  height: 100px;
-  width: 100px;
+  height: 70px;
+  width: 70px;
   display: inline-block;
-  background-size: 100px 100px;
+  background-size: 70px 70px;
   margin: 10px;
 }
 .social-link.facebook {
@@ -238,7 +217,7 @@
 }
 
 .footer {
-  height: 100px;
+  height: 80px;
   background-color: #4c4c4f;
   display: flex;
   justify-content: center;
@@ -250,7 +229,7 @@
 .footer p {
   display: inherit;
   align-items: flex-end;
-  font-size: 18px;
+  font-size: 15px;
   color: white;
   font-family: 'Catamaran', sans-serif;
 }
@@ -259,7 +238,7 @@
   display: inherit;
   align-items: inherit;
   justify-content: inherit;
-  width: 1500px;
+  width: 1200px;
   height: inherit;
   margin: 0 auto;
   background-color: inherit;
@@ -277,25 +256,37 @@
   font-family: 'Cormorant Garamond', serif;
 }
 
-.projects h2 {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 40px;
-}
 
 .projects p {
   font-family: 'Catamaran', sans-serif;
-  font-size: 24px;
+  font-size: 18px;
+  padding: 10px;
+  margin-top: 0;
+  text-decoration: none;
+  align-items: center;
+}
+.projects2 p {
+  font-size: 18px;
+  padding: 10px;
+  margin-top: 0;
+  text-decoration: none;
+  align-items: center;
+  font-family: 'Catamaran', sans-serif;
 }
 
+.projects h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 30px;
+  margin-top: 80px;
+  margin-bottom: 0;
+}
 .projects2 h2 {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 40px;
+  font-size: 30px;
+  margin-top: 80px;
+  margin-bottom: 0;
 }
 
-.projects2 p {
-  font-family: 'Catamaran', sans-serif;
-  font-size: 24px;
-}
 
 
 /* FUENTES
