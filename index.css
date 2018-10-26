@@ -284,17 +284,16 @@
   margin-top: 80px;
   margin-bottom: 0;
 }
-<<<<<<< HEAD
 */
+
+
 .underconstruction {
   color: white;
   animation-name: animacion;
   animation-duration: 2s;
   animation-iteration-count: infinite;
 }
-=======
 
->>>>>>> 27f6cbcebba61e9f8aeb4461f99e99d1117ae222
 
 body  {
   height: 100vh;
@@ -318,6 +317,8 @@ body  {
     opacity: 0;
   }
 }
+
+
 /* FUENTES
     font-family: 'Fjalla One', sans-serif;
 
