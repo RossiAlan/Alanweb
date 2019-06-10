@@ -56,10 +56,10 @@
 
 .hero h1 {
   padding: 0 40px;
-}*/
+}
 
   /*contenedor capacitacion*/
-/*.capa {
+.capa {
   padding: 0;
   justify-content: center;
   display: block;
@@ -87,9 +87,9 @@
   font-size: 23px;
   font-family: 'Cormorant Garamond', serif;
   margin: 30px 0 0 0;
-}*/
+}
   /*vinculo a platzi.com*/
-/*.capa p a {
+.capa p a {
   text-decoration: none;
 }
 
@@ -109,9 +109,9 @@
 .diplo-container content {
   margin: 15px;
   text-align: center;
-}*/
+}
   /* contenedores para cada diploma*/
-/*.diplomas {
+.diplomas {
   margin: 10px;
   margin-top: 20px;
   height: 300px;
@@ -319,8 +319,7 @@ body  {
   }
 }
 
-
-/* FUENTES
+FUENTES
     font-family: 'Fjalla One', sans-serif;
 
     font-family: 'Source Serif Pro', serif;
@@ -329,7 +328,7 @@ body  {
 
     font-family: 'Cormorant Garamond', serif; ----> TITULOS
 
-*/
+
 
 
 /*by AR*/
