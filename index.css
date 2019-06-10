@@ -1,4 +1,4 @@
-/*.header {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -284,9 +284,9 @@
   margin-top: 80px;
   margin-bottom: 0;
 }
-*/
 
 
+/*
 .underconstruction {
   color: white;
   animation-name: animacion;
@@ -294,6 +294,7 @@
   animation-iteration-count: infinite;
 }
 
+*/
 
 body  {
   height: 100vh;
