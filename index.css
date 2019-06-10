@@ -295,6 +295,7 @@
 }
 
 
+*/
 
 body  {
   height: 100vh;
@@ -305,7 +306,7 @@ body  {
   align-items: center;
   justify-content: center;
 }
-
+/*
 @keyframes animacion {
   0% {
     opacity: 0;
